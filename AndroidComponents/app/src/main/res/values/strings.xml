@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidComponents</string>
+    <string name="buttons">Buttons</string>
+    <string name="textViews">TextViews</string>
+</resources>
