@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidcomponents.piin.com.androidcomponents.Buttons.ButtonsActivity
+import androidcomponents.piin.com.androidcomponents.ListView.ListViewActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,8 +17,12 @@ class MainActivity : AppCompatActivity() {
 
     fun onButtonClicked(view: View) {
         when (view.id) {
-            (R.id.buttons) -> goToNextActivity(ButtonsActivity::class.java)
-            (R.id.textViews) -> Log.d("Button clicked","TextViews")
+            R.id.listViews -> goToNextActivity(ListViewActivity::class.java)
+            R.id.buttons -> goToNextActivity(ButtonsActivity::class.java)
+            R.id.textViews -> Log.d("Button clicked","TextViews")
+            else -> {
+                Log.d("Error","You should not here")
+            }
         }
     }
 

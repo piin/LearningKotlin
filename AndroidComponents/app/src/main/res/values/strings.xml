@@ -2,4 +2,5 @@
     <string name="app_name">AndroidComponents</string>
     <string name="buttons">Buttons</string>
     <string name="textViews">TextViews</string>
+    <string name="listView">ListView</string>
 </resources>

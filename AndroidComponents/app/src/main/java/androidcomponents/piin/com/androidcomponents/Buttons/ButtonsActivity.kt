@@ -12,6 +12,7 @@ class ButtonsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_buttons)
+
     }
 
     open fun onButtonClicked(view: View){
@@ -21,7 +22,6 @@ class ButtonsActivity : AppCompatActivity() {
                 val toggleButton = findViewById<ToggleButton>(R.id.toggleButton)
                 showToast("ToggleButton value : " + toggleButton.isChecked)
             }
-
         }
     }
 

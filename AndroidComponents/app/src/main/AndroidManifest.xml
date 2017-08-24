@@ -19,6 +19,11 @@
         <activity
             android:name=".Buttons.ButtonsActivity"
             android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".ListView.ListViewActivity"
+            android:parentActivityName=".MainActivity">
         </activity>
     </application>
 
